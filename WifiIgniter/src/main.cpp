@@ -101,6 +101,7 @@ void setup() {
     Serial.begin(115200);
     Serial.setTimeout(40);
     pinMode(MOSFET_PIN, OUTPUT);
+    pinMode(BUZZER_PIN, OUTPUT);
     pinMode(CONTIN_PIN, INPUT_PULLUP);
 
     WiFi.softAP(ssid, password);
